@@ -1,0 +1,845 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*以上是CSS Reset*/
+
+body{
+	font-family: Arial;
+}
+
+.decBar{
+	width:  100%;
+	height: 5px;
+	background: #292929;
+}
+
+.card{
+	width: 60px;
+	height: 5px;
+	float: left;
+}
+
+.wrap{
+	width:  940px;
+	height: 1250px;
+	margin: 0 auto;
+}
+
+
+.header{
+	height: 90px;
+	margin: 25px 0 25px 20px;
+}
+
+.logo{
+	float: left;
+}
+
+.function{
+	width: 81%;
+	height: 80px;
+	position: relative;
+	float: left;
+}
+
+.social{
+	/*width: 8%;*/
+	height: 33%;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+
+.toolBar{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width: 100%;
+}
+
+.item{
+	min-width: 12%;
+	height: 33%;
+	float: right;
+	padding: 1% 0 0 0;
+	font-family: Arial;
+	text-align: center;
+	margin: 0 0 0 3%;
+	display: block;
+	font-size: 18px;
+}
+
+.item:hover{
+	color: #FFF;
+	background-color: #39B0CF;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+    cursor: auto;
+    color: black;
+}
+
+.content{
+	width: 100%;
+	/*height: 1040px;*/
+}
+
+.sp{
+	/*width: 100%;*/
+	/*height: 415px;*/
+	/*height: 100%;*/
+	background: #fff;
+}
+.spPic{
+	/*width: 640px;*/  /*圖片寬與高*/
+	/*height: 100%;*/
+	float: left;
+}
+.spBox{
+	/*width: 300px;*/
+	/*height: 100%;*/
+	padding-bottom: 10px;
+	background: #292929;
+	float: left;
+}
+
+.spBoxTitle{
+	width: 210px;
+	color: #01A5CA;
+	padding: 45px 45px 0 45px;
+	font-size: 40px;
+}
+.spBoxCon{
+	max-width: 200px;
+	max-height: 120px;
+	overflow: hidden;
+	padding: 25px 45px;
+	font-size: 18px;
+	color: #ABABAB;
+	line-height:  28px;
+
+}
+
+.spBoxButton{
+	/*max-width: 140px;*/
+	height: 40px;
+	background: #3F3F3F;
+	color: #FFF;
+	border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    margin: 30px 75px;
+    padding: 5px 20px;
+}
+
+.information{
+	/*width: 840px;  940-60*/
+	margin-top: 25px;
+	font-size: 17px;
+	background: #fff;
+	color: black;
+	padding:  20px 50px 20px 50px;
+	line-height:  28px;
+}
+
+
+.LV{
+	width: 100%;
+	margin-top: 25px;
+}
+
+.lvLeft{
+	width:  60%;
+	float: left;
+	background: #fff;
+}
+
+.lvlTitle{
+	font-size: 35px; 
+	padding: 25px 55px;
+}
+
+.lvBox{
+	/*width: 550px;	*/
+	/*height:  140px;	(374-85)/2=144*/
+	margin: 0 0 30px 50px;
+}
+
+.lvPicBox{
+	width: 185px;
+	height: 140px;
+	float: left;
+}
+
+.lvConBox{
+	float: left;
+}
+
+.lvcbTitle{
+	font-weight: bold;
+	font-size: 19px;
+	padding-left: 35px;
+}
+
+.lvcbContent{
+	width: 280px;
+	max-height: 115px;
+	overflow: hidden;
+	padding: 5px 0 5px 35px;
+	line-height: 20px;
+}
+
+.lvRight{
+	width:  40%;   /*940*0.32=300*/
+	float: left;
+	background: #fff;
+	padding-bottom: 32px;
+}
+
+.lvrTitle{
+	font-size: 35px;
+	padding: 25px 25px 20px 25px;
+}
+
+.lvrList{
+	width:338px;
+	height: 140px;
+	margin: 0 auto;
+}
+.lvrList ol li{
+	line-height: 28px;
+	padding-left: 10px;
+	list-style-position: inside;
+}
+
+.lvrContent{
+	width: 100%;
+	/*height: 133px;*/
+	padding: 0 25px;
+}
+
+.lvrContent input[type=text]{
+	/*width:  185px;*/
+	height:  18px;
+	padding:5px 15px;
+	background: white;
+	border: 1 ;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.searchBut{
+	width: 92px;
+	height: 15px;
+	background: #F4F4F4;
+	margin-top: 20px;
+	text-align: center;
+	border-radius: 5px;
+	padding: 15px 0;
+	font-weight: bold;
+}
+
+.footer{
+	width: 100%;
+	line-height: 30px;
+}
+
+#copyright{
+	text-align: center;
+	padding: 15px 0;
+	display: block;
+}
+
+.clear{
+	clear: both;
+}
+
+/*響應式變化*/
+@media (max-width: 768px) {
+	.wrap{
+		width: 748px; /*左右留10*/
+		margin: 0 auto;
+	}
+	.header{
+		width: 94%;
+		margin: 5% 3% 3% 3%;
+	}
+	.social{
+		display:none;
+	}
+	.logo{
+		width: 24%;
+	}
+	.function{
+		width: 532px; /*703-171*/
+		height: 81px;
+	}
+	.toolBar{
+		width: 100%;
+	}
+	.item{
+		width: 25%;
+		height: 50%;
+		float: right;
+		padding: 10px;
+		display: block;
+		font-size: 1.6em;
+	}
+	.item:hover{
+		background-color: #01A5CA;
+		color: white;
+	}
+	.content{
+		width: 94%;
+		margin: 0 3%;
+	}
+	.sp{
+		min-height: 85%;
+	}
+	.spPic{
+		max-width: 68%;
+	}
+	.spBox{
+		max-width: 32%;
+		/*height: 100%;*/
+		height: 80%;
+		position: relative;
+		padding-bottom: 0;
+	}
+	.spBoxTitle{
+		font-size: 35px;
+		width: 64%;
+		padding: 10% 18% 5% 18%;
+		text-align: center;
+	}
+	.spBoxCon{
+		width: 82%;
+		min-height: 50%;
+		padding: 0;
+		margin: 0 10% 10% 10%;
+		text-align: center;
+		font-size: 1.3em;
+		line-height: 1.2em;
+	}
+	.spBoxButton{
+		padding: 5% 10%;
+		width: 80%;
+		margin: 0;
+		font-size: 1.5em;
+	}
+	.information{
+		padding: 5%;
+		line-height: 21px;
+		font-size: 1.3em;
+		line-height: 1.2em;
+		margin-top: 5%;
+	}
+	.LV{
+		margin-top: 5%;
+	}
+	.lvLeft{
+		width: 100%;
+	}
+	.lvRight{
+		width: 100%;
+		padding-bottom: 1%;
+		background-color: rgba(255,255,255,0);
+	}
+	.lvlTitle{
+		padding: 4% 0 0 0;
+		text-align: center;
+		font-size: 2.2em;
+	}
+	.lvBox{
+		margin: 2% 0 3% 7%;
+		float: left;
+		width: 38%;
+		border: 1px solid rgba(255,255,255,0);
+	}
+	.lvBox:hover{
+		border: 1px dashed rgb(1,165,202);
+	}
+	.lvPicBox{
+		float: none;
+		margin: 5% 15% 0 15%;
+		max-width: 70%;
+	}
+	.lvConBox{
+		float: none;
+		margin-top: 5%;
+	}
+	.lvcbTitle{
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+	.lvcbContent{
+		margin: 0 0 5% 0;
+		padding: 0 2%;
+		width: 96%;
+		max-width: 100%;
+		text-align: center;
+		font-size: 1.3em;
+		line-height: 1.2em;
+	}
+	.lvrTitle{
+		padding: 7% 0 5% 0;
+		text-align: center;
+		font-size: 2.2em;
+	}
+	.list-area{
+		float: left;
+		width: 47%;
+		background-color: #FFF;
+		margin: 5% 3% 0 0;
+	}
+	.lvrList{
+		margin: 0 5% 8% 5%;
+	}
+	.lvrList ol{
+		width: 50%;
+		margin: 0 15%;
+	}
+	.search-area{
+		float: left;
+		width: 47%;
+		margin: 5% 0 0 3%;
+		background-color: #FFF;
+		padding-bottom: 7%;
+	}
+	.lvrContent{
+		margin: 0 10%;
+		width: 80%;
+	}
+	.lvrContent input[type=text]{
+		margin-top: 5%;
+	}
+	.searchBut{
+		margin: 10% 20% 0 20%;
+	}
+	.footer{
+		width: 94%;
+		height: 90px;
+		margin: 3% 3% 3% 3%;
+		clear: both;
+	}
+	#copyright{
+	}
+}
+
+@media (max-width: 414px) {
+	.wrap{
+		width: 100%; /*左右留20→414-40=374*/
+		/*margin: 0 2%;*/
+	}
+	.header{
+		/*width: 100%;*/
+		min-height: 400px;
+		margin: 5% 3% 3% 3%;
+		clear: both;
+	}
+	.social{
+		display: none;
+	}
+	.logo{
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+	.logo img{
+		width: 100%;
+		margin: 0;
+		float: none;
+	}
+	.function{
+		width: 100%;
+		clear: both;
+		margin-top: 5%;
+	}
+	.toolBar{
+		width: 100%;
+		height: 100%;
+	}
+	.item{
+		width: 40%;
+		/*height: 60%;*/
+		float: left;
+		padding: 5%;
+		margin: 0;
+		display: block;
+		font-size: 1.5em;
+	}
+	.item:hover{
+		background-color: #01A5CA;
+		color: white;
+	}
+	.content{
+		width: 96%;
+		margin: 0 2%;
+		height: 65%;
+	}
+	.sp{
+		/*float: none;*/
+		width: 96%;
+		margin: 0 2%;
+		min-height: 0; /*取消舊屬姓*/
+		/*display: none;*/
+	}
+	.spPic{
+		max-width: 100%;
+		/*min-height: 85%;*/
+		float: none;
+		margin-bottom: 0;
+	}
+	.spBox{
+		min-width: 100%;
+		/*padding-bottom: 0;*/
+	}
+	.spBoxTitle{
+		width: 90%;
+		margin: 0;
+		padding: 5% 5% 4% 5%;
+	}
+	.spBoxCon{
+		min-width: 80%;
+		max-height: 70%;
+		padding: 2% 10% 5% 10%;
+		margin: 0;
+		font-size: 1.7em;
+		line-height: 1.2em;
+	}
+	.spBoxButton{
+		min-width: 80%; /*100-20*/
+		padding: 8% 10%;
+		font-size: 2.2em;
+		/*position: relative;*/
+	}
+	.information{
+		float: none;
+		margin:  8% 2%;
+		padding: 5% 5%;
+		text-align: center;
+		font-size: 1.3em;
+		line-height: 1.2em;
+	}
+	.LV{
+		width: 96%;
+		margin: 0 2%;
+		padding: 0;
+	}
+	.lvLeft{
+		float: none;
+		width: 100%;
+		/*margin: 0 2%;*/
+		padding: 5% 0;
+	}
+	.lvRight{
+		/*float: none;*/
+		width: 100%;
+		height: 60%;
+		/*margin-top: 8%;*/
+		/*padding: 5% 0;*/
+	}
+	.lvlTitle{
+		padding: 5% 0 2% 0;
+		font-size: 2.3em;
+	}
+	.lvBox{
+		float: none;
+		width: 90%; /*96-10*/
+		margin: 0 5%; /*清掉舊屬性*/
+		padding: 0;
+	}
+
+	.lvPicBox{
+		/*max-height: 60%;*/
+		margin: 8% 22% 3% 22%;
+		padding: 0;
+	}
+	.lvConBox{
+		margin: 0;
+	}
+	.lvcbTitle{
+		padding: 2% 5%;
+		font-size: 1.7em;
+	}
+	.lvcbContent{
+		margin: 0;
+		max-height: 85%;
+		padding: 0 8% 5% 8%;
+		width: 84%;
+		font-size: 1.3em;
+		line-height: 1.2em;
+	}
+	.list-area{
+		float: none;
+		width: 100%;
+		margin-top: 8%;
+		padding-bottom: 5%;
+	}
+	.lvrTitle{
+		padding: 5% 0 2% 0;
+		font-size: 2.3em;
+	}
+	.lvrList{
+		margin: 0; /*清掉舊屬性*/
+		margin-left: 10%;
+		width: 82%;
+	}
+	.lvrList ol{
+		width: 80%;
+		display: inline-block;
+	}
+	.search-area{
+		width: 100%;
+		padding-bottom: 5%;
+		margin: 8% 0 0 0;
+	}
+	.lvrContent{
+		padding: 0;
+		margin-left: 22%;
+		/*margin: 0 10%;*/
+		/*width: 100%;*/
+	}
+	.lvrContent input[type=text]{
+		margin: 3%;
+	}
+	.searchBut{
+		margin: 5% 20% 5% 20%;
+	}
+	.footer{
+		margin: 8% 2% 0 2%;
+	}
+}
+
+@media (max-width: 320px) {
+	.wrap{
+		width: 100%; /*左右留20→414-40=374*/
+		/*margin: 0 2%;*/
+	}
+	.header{
+		/*width: 100%;*/
+		min-height: 335px;
+		margin: 5% 3% 3% 3%;
+		clear: both;
+	}
+	.social{
+		display: none;
+	}
+	.logo{
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+	.logo img{
+		width: 100%;
+		margin: 0;
+		float: none;
+	}
+	.function{
+		width: 100%;
+		max-height: 100%;
+		clear: both;
+		margin-top: 5%;
+	}
+	.toolBar{
+		width: 100%;
+		height: 100%;
+	}
+	.item{
+		width: 40%;
+		float: left;
+		padding: 5%;
+		margin: 0;
+		display: block;
+		font-size: 1.5em;
+	}
+	.item:hover{
+		background-color: #01A5CA;
+		color: white;
+	}
+	.content{
+		width: 96%;
+		margin: 0 2%;
+		height: 65%;
+	}
+	.spPic{
+		min-width: 100%;
+		max-height: 65%;
+		float: none;
+		clear: both;
+		/*margin-bottom: 0;*/
+	}
+	.spBox{
+		max-height: 110%;
+		padding-bottom: 0;
+	}
+	.spBoxTitle{
+		width: 90%;
+		margin: 0;
+		padding: 5% 5% 4% 5%;
+	}
+	.spBoxCon{
+		padding: 0 10% 3% 10%;
+		font-size: 1.3em;
+		line-height: 1.2em;
+	}
+	.spBoxButton{
+		min-width: 80%; /*100-20*/
+		padding: 5% 10%;
+		margin: 0;
+	}
+	.information{
+		float: none;
+		margin:  10% 2%;
+		padding: 5% 5%;
+		text-align: center;
+		font-size: 1.3em;
+		line-height: 1.2em;
+	}
+	.LV{
+		width: 96%;
+		margin: 0 2%;
+		padding: 0;
+	}
+	.lvLeft{
+		float: none;
+		width: 100%;
+		/*margin: 0 2%;*/
+		padding-top: 0;
+		padding-bottom: 10%;
+	}
+	.lvRight{
+		/*float: none;*/
+		width: 100%;
+		height: 60%;
+	}
+	.lvlTitle{
+		padding: 10% 0 5% 0;
+		font-size: 1.8em;
+	}
+	.lvBox{
+		float: none;
+		width: 90%; /*96-10*/
+		margin: 0 5%; /*清掉舊屬性*/
+		padding: 0;
+	}
+
+	.lvPicBox{
+		/*max-height: 60%;*/
+		margin: 8% 17% 3% 17%;
+		padding: 0;
+	}
+	.lvConBox{
+		margin: 0;
+	}
+	.lvcbTitle{
+		padding: 2% 5%;
+		font-size: 1.5em;
+	}
+	.lvcbContent{
+		margin: 0;
+		padding: 0 8% 5% 8%;
+		width: 84%;
+		max-height: 85%;
+		overflow: hidden;
+		font-size: 1.3em;
+		line-height: 1.2em;
+	}
+	.list-area{
+		float: none;
+		width: 100%;
+		margin-top: 10%;
+		padding: 0;
+	}
+	.lvrTitle{
+		padding: 7% 0 2% 0;
+		font-size: 1.6em;
+	}
+	.lvrList{
+		margin: 0; /*清掉舊屬性*/
+		margin-left: 10%;
+		width: 82%;
+	}
+	.lvrList ol{
+		width: 80%;
+		display: inline-block;
+	}
+	.lvrList ol li{
+		line-height: 1.6em;
+	}
+	.search-area{
+		width: 100%;
+		margin-top: 10%;
+	}
+	.lvrContent{
+		padding: 0;
+		margin: 0 15%;
+		width: 70%;
+		/*margin-left: 20%;*/
+		/*margin: 0 10%;*/
+		/*width: 100%;*/
+	}
+	.lvrContent input[type=text]{
+		margin: 10% 7% 5% 7%;
+	}
+	.searchBut{
+		/*margin: 5% 20% 0 20%;*/
+		margin: 1% 27% 5% 27%;
+	}
+	.footer{
+		font-size: 0.8em;
+	}
+}
